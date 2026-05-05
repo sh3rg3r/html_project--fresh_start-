@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    background-color: #1e1e1e;
+    font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+main,
+section,
+footer {
+    width: 300px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 20px;
+}
+
+p {
+    font-weight: 100;
+    margin-top: 16px;
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    height: 100px;
+    padding: 24px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header_logo-image {
+    width: 100px;
+}
+
+
+.header_menu-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    height: 100px;
+}
+
+.menu-w2 {
+    text-decoration: underline;
+}
+
+.menu-w1 {
+    text-decoration: none;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.intro-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.content-section_theme_dark,
+h1,
+a {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.content-section_theme_bright {
+    background-color: rgb(240, 210, 36);
+    color: #1e1e1e;
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+
+.cover {
+    height: 200px;
+    background-image: url("./s-chistogo-lista-main/images/cover.svg");
+    background-position: center;
+    font-family: "Inter", serif;
+    background-repeat: no-repeat;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 50px;
+}
+
+.word1 {
+    align-self: flex-start;
+}
+
+.word2 {
+    align-self: center;
+}
+
+.word3 {
+    align-self: flex-end;
+}
+
+.intro {
+    font-size: 16px;
+}
+
+.how-to-head,
+.reason-head {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 100;
+    font-family: 'EB Garamond', serif;
+}
+
+.stroka1 {
+    align-self: flex-end;
+}
+
+.stroka2 {
+    align-self: flex-start;
+}
+
+.how-to,
+.reasons-start {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.reasons-li {
+    padding: 10px;
+    font-size: 15px;
+}
+
+/* карточки автора */
+.author-card {
+    font-size: 17px;
+    margin-top: 20px;
+    font-family: 'EB Garamond', serif;
+    padding: 0px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border-radius: 20px;
+    width: 270px;
+    background-color: rgb(55, 55, 55);
+}
+
+.author-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.autor-pre {
+    padding: 10px 0px;
+    font-weight: 100;
+}
+
+/* желтая цитата */
+.advice-card {
+    color: #1e1e1e;
+    margin-top: 20px;
+    font-family: 'EB Garamond', serif;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border-radius: 20px;
+    width: 270px;
+    background-color: rgb(240, 210, 36);
+}
+
+.advice-title {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.advice-text {
+    font-size: 17px;
+}
+
+.advise-row2 {
+    margin-top: 5px;
+}
+
+/* подвал */
+
+.footer-section {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgb(240, 210, 36);
+}
+
+.footer-content {
+    width: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer_logo-image {
+    width: 70px;
+}
+
+.footer-a {
+    color: azure;
+    margin: 0px;
+}
